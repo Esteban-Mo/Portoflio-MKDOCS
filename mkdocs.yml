@@ -10,6 +10,9 @@ theme:
     - navigation.sections
     - navigation.expand
 
+repo_url: https://github.com/Esteban-Mo/Portoflio-MKDOCS
+repo_name: Esteban-Mo/Portoflio-MKDOCS
+
 nav:
   - Accueil: index.md
   - Projets: projets.md
