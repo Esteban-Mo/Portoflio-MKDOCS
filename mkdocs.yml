@@ -1,0 +1,17 @@
+site_name: Mon Portfolio
+theme:
+  name: material
+  palette:
+    primary: teal
+    accent: deep orange
+  language: fr
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+
+nav:
+  - Accueil: index.md
+  - Projets: projets.md
+  - À propos: about.md
+  - Contact: contact.md
