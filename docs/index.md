@@ -1,20 +1,15 @@
-# Portfolio
+# Bienvenue sur mon Portfolio
 
-## Bienvenue sur mon espace
+## Développeur Full Stack Passionné
 
-Je suis un développeur passionné spécialisé dans le développement web et mobile.
+Je suis un développeur spécialisé dans le développement web et mobile, avec une expertise particulière dans les technologies modernes comme React, Node.js et TypeScript.
 
-### Expertise
+### Expertise Principale
 
-- Développement Frontend (React, Vue.js)
-- Développement Backend (Node.js, Python)
-- Applications mobiles (React Native)
-- DevOps & Cloud (AWS, Docker)
+- 🎯 Développement Frontend (React, Vue.js)
+- 💻 Développement Backend (Node.js, Python)
+- 📱 Applications Mobiles (React Native)
+- ☁️ DevOps & Cloud (AWS, Docker)
 
-### Derniers Projets
-
-Découvrez mes dernières réalisations dans la [section projets](/projets).
-
-### Contact
-
-N'hésitez pas à me [contacter](/contact) pour discuter de vos projets.
+[En savoir plus sur mes projets](/projects){ .md-button .md-button--primary }
+[Me contacter](/contact){ .md-button }

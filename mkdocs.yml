@@ -1,20 +1,81 @@
-site_name: Mon Portfolio
+site_name: Portfolio Développeur
+site_description: Portfolio professionnel présentant mes projets et compétences
+site_author: Votre Nom
 theme:
   name: material
   palette:
-    primary: teal
-    accent: deep orange
+    - scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Basculer en mode sombre
+    - scheme: slate
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Basculer en mode clair
   language: fr
   features:
     - navigation.tabs
     - navigation.sections
     - navigation.expand
+    - navigation.top
+    - navigation.tracking
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
 
-repo_url: https://github.com/Esteban-Mo/Portoflio-MKDOCS
-repo_name: Esteban-Mo/Portoflio-MKDOCS
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - admonition
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - meta
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
 
 nav:
   - Accueil: index.md
-  - Projets: projets.md
-  - À propos: about.md
+  - À propos: 
+    - Présentation: about/presentation.md
+    - Valeurs: about/values.md
+    - Évolution: about/evolution.md
+  - Compétences:
+    - Techniques: skills/technical.md
+    - Méthodologie: skills/methodology.md
+    - Soft Skills: skills/soft-skills.md
+  - Projets:
+    - Vue d'ensemble: projects/overview.md
+    - Atlas: projects/atlas.md
+    - BDD Turbine: projects/bdd-turbine.md
+    - Autres Projets: projects/others.md
   - Contact: contact.md
+
+plugins:
+  - search
+  - tags
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/votre-username
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/votre-profil
+
+copyright: Copyright &copy; 2024 Votre Nom
