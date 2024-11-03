@@ -25,10 +25,6 @@ markdown_extensions:
 
 nav:
   - Accueil: index.md
-  - À propos: about.md
-  - Compétences: skills.md
-  - Projets: projects.md
-  - Contact: contact.md
 
 repo_url: https://github.com/votre-username/portfolio
 repo_name: Portfolio
