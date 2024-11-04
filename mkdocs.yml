@@ -1,9 +1,10 @@
-site_name: Mon Portfolio
+site_name: Esteban Mortier
 theme:
   name: material
+  logo: assets/logo.jpg
   palette:
-    primary: deep purple
-    accent: amber
+    primary: white
+    accent: red
   language: fr
   features:
     - navigation.tabs
@@ -13,6 +14,12 @@ theme:
     - toc.integrate
     - search.suggest
     - search.highlight
+
+extra:
+  generator: false
+
+extra_css:
+  - stylesheets/extra.css
 
 markdown_extensions:
   - pymdownx.highlight
@@ -25,6 +32,3 @@ markdown_extensions:
 
 nav:
   - Accueil: index.md
-
-repo_url: https://github.com/votre-username/portfolio
-repo_name: Portfolio

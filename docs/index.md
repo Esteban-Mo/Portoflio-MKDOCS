@@ -1,3 +1,7 @@
+<div class="header-title">
+    EXPERT EN INGÉNIERIE LOGICIELLE
+</div>
+
 # Bienvenue sur mon Portfolio
 
 ## 👋 Présentation

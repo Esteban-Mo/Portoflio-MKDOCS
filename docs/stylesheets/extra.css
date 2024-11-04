@@ -1,0 +1,30 @@
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 30%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+}
+
+/* Pour ajuster l'espacement si nécessaire */
+.md-header__title {
+    margin-left: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.header-title {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #f8f9fa;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .header-title {
+        font-size: 1.8rem;
+        padding: 1.5rem 1rem;
+    }
+}
